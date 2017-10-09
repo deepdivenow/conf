@@ -1,0 +1,17 @@
+$ORIGIN d.a.5.b.0.f.1.0.7.4.1.0.0.2.ip6.arpa.
+$TTL 3600
+@ IN SOA gwhome.drohome6. root.gwhome.drohome6. (
+
+			2014042800;
+			10800 ;
+			3600 ;
+			604800 ;
+			3600 );	
+@	IN NS	gwhome.drohome6.
+@	IN NS	fshome.drohome6.
+222	IN PTR  gwhome.drohome6.
+202	IN PTR  centos-media.drohome6.
+55	IN PTR  fshome.drohome6.
+224	IN PTR  asus.drohome6.
+60	IN PTR  winxp-vbox.drohome6.
+

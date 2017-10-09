@@ -1,0 +1,35 @@
+$TTL 3600
+@	IN	SOA	gwhome.drohome.	root.gwhome.drohome. (
+			2016091800;
+			10800;
+			3600;
+			604800;
+			86400);
+@       IN NS   gwhome.drohome.
+@       IN NS   miki.drohome.
+@       IN NS   fshome.drohome.
+
+222   IN PTR  gwhome.drohome.
+55    IN PTR  fshome.drohome.
+75    IN PTR  miki-tor.drohome.
+70    IN PTR  miki.drohome.
+66    IN PTR  fstor.drohome.
+98    IN PTR  dap2310.drohome.
+225   IN PTR  switch.drohome.
+99    IN PTR  asus2.drohome.
+10    IN PTR  akislyak-nb-wifi.drohome.
+11    IN PTR  akislyak-nb-lan.drohome.
+12    IN PTR  nastya.drohome.
+13    IN PTR  i2500.drohome.
+19    IN PTR  jen.drohome.
+20    IN PTR  ipad-anastasya.drohome.
+21    IN PTR  iphone-anastasya.drohome.
+22    IN PTR  android-andrey.drohome.
+23    IN PTR  android-asus.drohome.
+56    IN PTR  build.drohome.
+60    IN PTR  winxp-vbox.drohome.
+61    IN PTR  vtl.drohome.
+77    IN PTR  vuduo.drohome.
+78    IN PTR  vusolo.drohome.
+79    IN PTR  xbmc.drohome.
+115   IN PTR  dless.drohome.

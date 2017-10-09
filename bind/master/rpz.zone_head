@@ -1,0 +1,10 @@
+$TTL 3600
+@ IN SOA gwhome.drohome. root.gwhome.drohome. (
+                                     _DATE_;
+                                     10800;
+                                     3600;
+                                     604800;
+                                     3600);
+@    IN NS  gwhome.drohome.
+@    IN NS  miki.drohome.
+@    IN NS  fshome.drohome.

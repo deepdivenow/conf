@@ -1,0 +1,47 @@
+$TTL 3600
+@	IN	SOA	gwhome.drohome6.	root.gwhome.drohome6. (
+			2014042800;
+			10800;
+			3600;
+			604800;
+			86400);
+@       IN NS   gwhome.drohome6.
+@       IN NS   fshome.drohome6.
+
+gwhome		IN AAAA 	2001:470:1f0b:5ad::222
+fshome		IN AAAA 	2001:470:1f0b:5ad::55
+asus2		IN AAAA	2001:470:1f0b:5ad::99
+printer		IN CNAME asus2
+canon		IN CNAME asus2
+gw		IN CNAME gwhome
+fs		IN CNAME fshome
+explo		IN CNAME fshome
+
+akislyak-nb-wifi IN AAAA	2001:470:1f0b:5ad::10
+akislyak-nb-lan	IN AAAA	2001:470:1f0b:5ad::11
+akislyak-nb	IN CNAME akislyak-nb-wifi
+
+nastya		IN AAAA	2001:470:1f0b:5ad::12
+hamster		IN CNAME nastya
+
+i2500		IN AAAA	2001:470:1f0b:5ad::13
+dropc		IN CNAME i2500
+
+jen		IN AAAA	2001:470:1f0b:5ad::19
+
+ipad-anastasya  IN AAAA	2001:470:1f0b:5ad::20
+ipad		IN CNAME ipad-anastasya
+iphone-anastasya  IN AAAA	2001:470:1f0b:5ad::21
+iphone		IN CNAME iphone-anastasya
+android-andrey  IN AAAA	2001:470:1f0b:5ad::22
+android		IN CNAME android-andrey
+htc		IN CNAME android-andrey
+
+build		IN AAAA	2001:470:1f0b:5ad::56
+winxp-vbox	IN AAAA	2001:470:1f0b:5ad::60
+winxp-virt	IN CNAME winxp-vbox
+winxp-vmware	IN AAAA	2001:470:1f0b:5ad::61
+vuduo		IN AAAA	2001:470:1f0b:5ad::77
+vusolo		IN AAAA	2001:470:1f0b:5ad::78
+vtl		IN AAAA	2001:470:1f0b:5ad::201
+centos-media	IN AAAA	2001:470:1f0b:5ad::202

@@ -1,0 +1,19 @@
+$TTL 3600
+1.168.192.in-addr.arpa. IN SOA gwhome.drohome. root.gwhome.drohome. (
+			2015021500 ;
+			10800 ;
+			3600 ;
+			604800 ;
+			3600 );	
+@	IN NS	gwhome.drohome.
+@	IN NS	fshome.drohome.
+222	IN PTR  gwhome.drohome.
+202	IN PTR  centos-media.drohome.
+55	IN PTR  fshome.drohome.
+224	IN PTR  asus.drohome.
+99	IN PTR  asus2.drohome.
+225	IN PTR  sat.drohome.
+60	IN PTR  winxp-vbox.drohome.
+61	IN PTR  vtl.drohome.
+78	IN PTR  vusolo.drohome.
+

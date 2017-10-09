@@ -1,0 +1,68 @@
+$TTL 3600
+@	IN	SOA	gwhome.drohome.	root.gwhome.drohome. (
+			2017071600;
+			10800;
+			3600;
+			604800;
+			3600);
+@       IN NS   gwhome.drohome.
+@       IN NS   miki.drohome.
+@       IN NS   fshome.drohome.
+
+nnm		IN A	81.17.30.22
+gwhome		IN A 	192.168.1.222
+fshome		IN A 	192.168.1.55
+fstor		IN A 	192.168.1.66
+miki		IN A 	192.168.1.70
+miki2		IN A 	192.168.1.71
+miki-tor	IN A	192.168.1.75
+vuduo		IN A	192.168.1.77
+vusolo		IN A	192.168.1.78
+dunehd		IN A	192.168.1.79
+asus		IN A	192.168.1.224
+sw		IN A	192.168.1.225
+dap2310		IN A	192.168.1.98
+wifi-n		IN CNAME dap2310
+asus2		IN A	192.168.1.99
+
+ol73b		IN A	192.168.1.100
+pgnode01	IN A	192.168.1.101
+pgnode02	IN A	192.168.1.102
+pgnode03	IN A	192.168.1.103
+teradata	IN A	192.168.1.120
+
+
+printer		IN CNAME miki
+canon		IN CNAME miki
+gw		IN CNAME gwhome
+fs		IN CNAME fshome
+explo		IN CNAME miki
+ntp		IN CNAME miki
+video		IN CNAME miki
+twiki		IN CNAME miki
+rpz		IN CNAME gwhome
+
+akislyak-nb-wifi IN A	192.168.1.10
+akislyak-nb-lan	IN A	192.168.1.11
+akislyak-nb	IN CNAME akislyak-nb-wifi
+
+nastya		IN A	192.168.1.12
+hamster		IN CNAME nastya
+
+i2500		IN A	192.168.1.13
+dropc		IN CNAME i2500
+s10		IN A	192.168.1.14
+s10-wifi	IN A	192.168.1.15
+
+alex-pc		IN A	192.168.1.18
+jen		IN A	192.168.1.19
+
+ipad-anastasya  IN A	192.168.1.20
+droid-lg-white  IN A	192.168.1.21
+droid-lg-black  IN A	192.168.1.22
+droid-asus      IN A	192.168.1.23
+
+xbmc		IN A	192.168.1.79
+dless		IN A	192.168.1.115
+diskless 	IN CNAME dless
+dls	 	IN CNAME dless
